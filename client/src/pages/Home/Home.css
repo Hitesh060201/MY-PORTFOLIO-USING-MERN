@@ -1,0 +1,114 @@
+.home-container{
+    height: 300px;
+    
+    padding-left:150px;
+}
+.home-content h2{
+    padding: 5px;
+    padding-top: 80px;
+    color: yellow;
+}
+.home-content h1{
+    padding: 5px;
+    color: hsl(209, 97%,48% );
+}
+.home-buttons{
+    padding: 30px;
+    /*margin-left: 30px;*/
+    margin-top: 20px;
+    
+}
+.home-buttons .btn-hire{
+    background-color: hwb(209 2% 0%);
+    color: hwb(0 0% 100%);
+    width: 150px;
+}
+.home-buttons .btn-hire:hover{
+    background-color: hsl(64, 88%, 74%);
+    color: hwb(0 1% 7%);
+    width: 180px;
+    transition: 0.7s;
+}
+.home-buttons .btn-cv{
+    background-color: rgb(255, 5, 130);
+    color: #000000;
+    width: 150px;
+    margin-left: 15px;
+}
+.home-buttons .btn-cv:hover{
+    background-color:#bbff00;
+    color: rgb(29, 2, 2);
+    opacity: 80%;
+    transition: 0.7s;
+}
+.home-buttons .btn-git{
+    background-color: rgb(26, 255, 5);
+    color: #0a0909;
+    width: 150px;
+    margin-left: 15px;
+}
+.home-buttons .btn-git:hover{
+    background-color:#002fff;
+    color: rgb(255, 253, 253);
+    opacity: 80%;
+    width: 165px;
+    transition: 0.7s;
+}
+.b1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.b2{
+    font-family:Arial, Helvetica, sans-serif;;
+    font-weight: bolder;
+}
+.b3{
+    font-family:Arial, Helvetica, sans-serif;;
+    font-weight: bolder;
+}
+
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}
+/* =============== */
+@media (max-width: 600px) {
+.home-container {
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+    }
+.home-container h2 {
+        
+font-size: 24px;
+    }
+.home-container h1 {
+font-size: 24px;
+    }
+.home-buttons{
+            
+            width:60px;
+           
+        }
+.home-button .btn-cv{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.theme-btn{
+    margin-right: 50px;
+}
+
+
+  }
