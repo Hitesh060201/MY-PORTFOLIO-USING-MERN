@@ -42,7 +42,7 @@ const Projects = () => {
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://github.com/Hitesh060201/MY-PORTFOLIO-USING-MERN"
                   >
                     View
                   </a>
@@ -96,7 +96,7 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h5 className="text-uppercase">Connect Four Game</h5>
                   </div>
-                  <a className="ad-btn" href="view">
+                  <a className="ad-btn" href="https://github.com/Hitesh060201/connect-four-game">
                     View
                   </a>
                 </div>
@@ -126,7 +126,7 @@ const Projects = () => {
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://github.com/Hitesh060201/E-commerce-Ui"
                   >
                     View
                   </a>
@@ -160,6 +160,36 @@ const Projects = () => {
                   <a
                     className="ad-btn"
                     href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                  >
+                    View
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="col-md-4 mt-5">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">UI</span>
+                  <img
+                    src="Project6.jpg"
+                    alt="project6"
+                  />
+                </div>
+                <div className="card-image-overly m-auto mt-3">
+                  <span className="card-detail-badge">React</span>
+                  <span className="card-detail-badge">SCSS</span>
+
+                  
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase">TRAVEL AND TOUR UI</h5>
+                  </div>
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/Hitesh060201/TRAVEL-AND-TOUR-WEBSITE-USING-REACT"
                   >
                     View
                   </a>

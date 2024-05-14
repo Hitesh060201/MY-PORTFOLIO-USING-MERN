@@ -31,6 +31,10 @@
     color: rgb(173, 7, 35);
     transition: 1.5s;
 }
+.techstack p{
+  font-weight: 700;
+  font-size: medium;
+}
 
  /* ========= DARK MODE ============ */
  

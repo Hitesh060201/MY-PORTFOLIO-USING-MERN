@@ -20,8 +20,8 @@
     cursor: pointer;
 }
 .sidebar-toggle-icons p svg{
-    background-color: hsl(197, 100%, 48%);
-    color: #13050b;
+    background-color: hsl(241, 100%, 48%);
+    color: #ffffff;
     margin-top: 30px;
 }
 /* ==== MOBILE VIEW ========== */

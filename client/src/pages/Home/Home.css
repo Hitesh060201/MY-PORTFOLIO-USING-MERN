@@ -10,7 +10,7 @@
 }
 .home-content h1{
     padding: 5px;
-    color: hsl(209, 97%,48% );
+    color: hsl(64, 97%, 48%);
 }
 .home-buttons{
     padding: 30px;
@@ -19,36 +19,36 @@
     
 }
 .home-buttons .btn-hire{
-    background-color: hwb(209 2% 0%);
-    color: hwb(0 0% 100%);
+    background-color: hwb(263 0% 0%);
+    color: hwb(0 100% 0%);
     width: 150px;
 }
 .home-buttons .btn-hire:hover{
-    background-color: hsl(64, 88%, 74%);
-    color: hwb(0 1% 7%);
+    background-color: #001aff;
+    color: hwb(0 100% 0%);
     width: 180px;
     transition: 0.7s;
 }
 .home-buttons .btn-cv{
-    background-color: rgb(255, 5, 130);
-    color: #000000;
+    background-color: hwb(263 0% 0%);
+    color: #ffffff;
     width: 150px;
     margin-left: 15px;
 }
 .home-buttons .btn-cv:hover{
-    background-color:#bbff00;
-    color: rgb(29, 2, 2);
+    background-color:#001aff;
+    color: rgb(255, 255, 255);
     opacity: 80%;
     transition: 0.7s;
 }
 .home-buttons .btn-git{
-    background-color: rgb(26, 255, 5);
-    color: #0a0909;
+    background-color: hwb(263 0% 0%);
+    color: #ffffff;
     width: 150px;
     margin-left: 15px;
 }
 .home-buttons .btn-git:hover{
-    background-color:#002fff;
+    background-color:#001aff;
     color: rgb(255, 253, 253);
     opacity: 80%;
     width: 165px;

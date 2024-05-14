@@ -142,6 +142,29 @@ input:focus,textarea:focus{
     color: rgb(255, 251, 0);
     transition: 1s;
   }
+
+  #dark .button{
+    width: 300px;
+    padding: 6px;
+    justify-content: center;
+    background-color: #0077ff;
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+#dark .button:focus{
+    box-shadow: none;
+    outline-width: 0px;
+}
+#dark .button:hover{
+    background-color: #eeff00;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
   /* ======================== */
 @media (max-width: 600px) {
     .contact {
